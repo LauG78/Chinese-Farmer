@@ -1,0 +1,58 @@
+body{
+    max-width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-image: url("https://worldofprintables.com/wp-content/uploads/2021/04/Pretty-Cherry-Blossom-iPhone-Wallpaper.jpg.webp");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: cover;
+}
+#preamble {
+    list-style-type: " - ";
+}
+header{
+    height: auto;
+    padding: -25px;
+}
+.preamble{
+    height: auto;
+    text-align: left;
+    padding: -25px;
+}
+table{
+    border: blueviolet;
+    border-style: double;
+    border-collapse: separate;
+    height: 500px;
+    width: 600px;
+    text-align: center;
+    padding: 10px;
+    background-color: honeydew;
+    }
+article{
+    height: auto;
+    vertical-align: middle;
+    padding: -25px;
+}
+.table{
+
+}
+td{
+    border-style: solid;
+    border-color: black;
+    padding: 4px;
+    text-align: center;
+    width: available;
+}
+.conclusion{
+    color: darkmagenta;
+}
+#pic1{
+
+}
+.pic1-explain{
+
+}
+footer{
+    color: darkslategrey;
+}
