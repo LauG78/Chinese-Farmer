@@ -10,12 +10,39 @@
             letter-spacing: 2px;
             color: darkblue;
         }
+        header > time {
+            background-color: yellow;
+        }
+        .good{
+            color: green;
+            text-transform: capitalize;
+                    }
+        .bad{
+            color: red;
+            text-transform: capitalize;
+        }
+        a:link {
+            color: green;
+        }
+        a:visited {
+            color: cyan;
+        }
+        a:hover {
+            color: hotpink;
+        }
+        a:active {
+            color: blue;
+        }
+        .first{
+            font-weight: bold ;
+        }
     </style>
 </head>
 <body>
     <header>
         <h1>The story of the Chinese Farmer</h1>
-        <h4 class="author">11 may 2016, Alexandre Gorius</h4>
+        <time datetime="2016-03-11 ">11 may 2016</time>
+            <i>Alexandre Gorius</i>
         <figure>
             <img src="https://cdn-images-1.medium.com/max/1000/1*2PCmLZyzQaF2pyKYkSTFpA.jpeg" alt="man working">
         </figure>
@@ -38,12 +65,21 @@
         <h2 class="story-h3">
         The story
         </h2>
-        <p id="story" class="human" nationality="chinese" job="farmer" >
-        Once upon a time there was a Chinese farmer whose horse ran away. That evening, all of his neighbors came around to commiserate. They said, “We are so sorry to hear your horse has run away. This is most unfortunate.” The farmer said, <strong>“Maybe.”</strong> The next day the horse came back bringing seven wild horses with it, and in the evening everybody came back and said, “Oh, isn’t that lucky. What a great turn of events. You now have eight horses!” The farmer again said,<strong> “Maybe.”</strong>
+        <p class="first">
+            Once upon a time there was a Chinese farmer whose horse ran away. That evening, all of his neighbors came around to
+            commiserate. They said, <q class="vil">We are so sorry to hear your horse has run away. This is most unfortunate.</q> The farmer
+            said, <q><em class="farm">Maybe</em>.</q> The next day the horse came back bringing seven wild horses with it, and in the evening
+            everybody came back and said, <q class="vil">Oh, isn’t that lucky. What a great turn of events. You now have eight horses!</q>
+            The farmer again said, <q><em class="farm">Maybe</em>.</q>
 
-        The following day his son tried to break one of the horses, and while riding it, he was thrown and broke his leg. The neighbors then said, “Oh dear, that’s too bad,” and the farmer responded, <strong>“Maybe.”</strong> The next day the conscription officers came around to conscript people into the army, and they rejected his son because he had a broken leg. Again all the neighbors came around and said, “Isn’t that great!” Again, he said, <strong>“Maybe.”</strong>
+            The following day his son tried to break one of the horses, and while riding it, he was thrown and broke his leg.
+            The neighbors then said, <q class="vil">Oh dear, that’s too bad,</q> and the farmer responded, <q><em class="farm">Maybe</em>.</q> The next day the
+            conscription officers came around to conscript people into the army, and they rejected his son because he had a
+            broken leg. Again all the neighbors came around and said, <q class="vil">Isn’t that great!</q> Again, he said, <q><em class="farm">Maybe</em>.</q>
 
-        The whole process of nature is an integrated process of immense complexity, and it’s really impossible to tell whether anything that happens in it is good or bad — because you never know what will be the consequence of the misfortune; or, you never know what will be the consequences of good fortune.
+            The whole process of nature is an integrated process of immense complexity, and it’s really impossible to tell
+            whether anything that happens in it is <em class="good">good</em> or <em class="bad">bad</em> — because you never know what will be the consequence of the
+            misfortune; or, you never know what will be the consequences of good fortune.
 
         </p>
         <p id="author">
@@ -52,15 +88,15 @@
         <p>
         ----
         </p>
-    </article>
-    <section class="table"><br>
+
+
         <table>
             <tr>
                 <td>
                 Event
                 </td>
                 <td>
-                Good or Bad ?
+                    <em class="good">good</em> or <em class="bad">bad</em> ?
                 </td>
             </tr>
             <tr>
@@ -99,25 +135,28 @@
         <p class="table-explanation">
         Table representing the farmer's philosophy.
         </p>
-    </section>
-    <section class="conclusion">
         <h2>Conclusion</h2>
-        <p>Good and Bad are just one perspective. Bananas are good for monkeys, but monkeys are not good for bananas.
+        <p> <em class="good">good</em> and <em class="bad">bad</em> are just one perspective. Bananas are  <em class="good">good</em> for monkeys, but monkeys are not  <em class="good">good</em> for bananas.
             Let's not make a big deal out of it..</p>
         <figure>
             <img id="pic1" src="pic1.png" alt="point of view">
         </figure>
-    </section>
-    <aside>
         <p class="pic1-explain">
-            This is a classic example of point of view. If you look at the picture you see the good on left and the
-            bad on the right. But if you stand in front of the man, the good is on the right and the bad is on the left.
+            This is a classic example of point of view. If you look at the picture you see the  <em class="good">good</em> on left and the
+            <em class="bad">bad</em> on the right. But if you stand in front of the man, the  <em class="good">good</em> is on the right and the <em class="bad">bad</em> is on the left.
         </p>
-    </aside>
+    </article>
 </body>
 <footer>
     Copyright Just Another Company 2017. All right reserved.
-    Adapted from
-    <a href="https://wellsbaum.blog/2018/01/27/alan-watts-the-story-of-the-chinese-farmer/">this article:</a>
+    Adapted from this site:<br>
+    <a class="hovertext" data-hover="The site" href="https://wellsbaum.blog/2018/01/27/alan-watts-the-story-of-the-chinese-farmer/">Original</a>
+    <br>
+    <a class="hovertext" data-hover="Another interesting site" href="https://justanothercompany.it/"
+       target="_blank">Just Another Company</a>
+    <br>
+    <a class="hovertext" data-hover="Google"
+       href="https://google.com/"
+       target="_blank">Google</a>
 </footer>
 </html>

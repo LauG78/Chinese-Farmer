@@ -14,11 +14,6 @@ header{
     height: auto;
     padding: -25px;
 }
-.preamble{
-    height: auto;
-    text-align: left;
-    padding: -25px;
-}
 table{
     border: blueviolet;
     border-style: double;
@@ -29,14 +24,6 @@ table{
     padding: 10px;
     background-color: honeydew;
     }
-article{
-    height: auto;
-    vertical-align: middle;
-    padding: -25px;
-}
-.table{
-
-}
 td{
     border-style: solid;
     border-color: black;
@@ -44,14 +31,22 @@ td{
     text-align: center;
     width: available;
 }
-.conclusion{
+.vil {
     color: darkmagenta;
 }
-#pic1{
-
+.farm {
+    color: dodgerblue;
 }
-.pic1-explain{
+}
+.pic1-explain1 {
+    float: left;
+    margin-right: 30px;
+}
+tr:nth-child(even) {background: #CCC}
+tr:nth-child(odd) {background: #FFF}
 
+aside {
+    float right;
 }
 footer{
     color: darkslategrey;
