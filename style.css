@@ -43,6 +43,9 @@ td{
     margin-right: 30px;
     width: 300px;
 }
+.q {
+    font-style: italic;
+}
 .picture{
     float: right;
     width: 800px;
