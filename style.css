@@ -38,9 +38,14 @@ td{
     color: dodgerblue;
 }
 }
-.pic1-explain1 {
+.pic1 {
     float: left;
     margin-right: 30px;
+    width: 300px;
+}
+.picture{
+    float: right;
+    width: 800px;
 }
 tr:nth-child(even) {background: #CCC}
 tr:nth-child(odd) {background: #FFF}
